@@ -1,1 +1,85 @@
 /* Styles for your homework one assignment */
+* {
+ margin: 0;
+}
+.logo h1 {
+    font-family: viktor-script,sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 72px;
+    text-align: center;
+    padding: 5%;
+}
+nav {
+    padding: 0 7% 0 7%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: hatch,serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 1.25em;
+        margin: 2%;
+    
+}
+.header img{
+    width: 100%;
+    height: auto;
+}
+.container {
+    padding: 5%;
+    text-align: center
+}
+.container h1{
+        font-family: viktor-script,sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 48px;
+}
+.container p{
+    font-family: sans-serif;
+}
+.navimg {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+}
+.navimg h2 {
+text-align: center;
+    font-size: 21px;
+    padding-top: 5%
+}
+
+.navimg a {
+    margin: 5%;
+display: inline-block;
+        text-decoration: none;
+    color: black;
+
+}
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+footer p {
+    text-decoration: none;
+    color: white;
+    font-family: hatch,serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 0.8em;
+    padding: 3%
+}
+.social img {
+    height: auto;
+   width: 4%;
+    margin: 3% 3% 3% 0;
+    float: right
+}
